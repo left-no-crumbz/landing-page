@@ -34,6 +34,7 @@ body {
     list-style-type: none;
     background-color: var(--main-bg-color);
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 li:first-child {
