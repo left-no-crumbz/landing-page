@@ -39,14 +39,17 @@ li:first-child {
 }
 
 .hero {
+    display: flex;
     background-color: var(--main-bg-color);
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
 }
 
 header {
     width: 950px;
     display: flex;
     flex-direction: column;
-    padding: 100px 200px;
     gap: 8px;
     flex: 0 1 auto;
 }
@@ -66,4 +69,11 @@ h1 {
     border-radius: 8px;
     align-self: flex-start;
     font-size: 16px;
+}
+
+.img-container {
+
+    align-self: center;
+    background-color: gray;
+    padding: 100px 200px; 
 }
