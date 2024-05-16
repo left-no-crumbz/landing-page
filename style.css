@@ -8,20 +8,26 @@
     --main-bg-color: #1F2937;
     --main-txt-color: #f9faf8;
     --sec-txt-color: #e5e7eb;
+    --blue: #3882f6;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar,
+.subtext {
+    font-size: 18px;
+    color: var(--sec-txt-color);
+}
+
+
 .navbar {
     display: flex;
-    padding: 20px 100px;
-    justify-content: space-between;
+    padding: 20px 200px;
     align-items: center;
     list-style-type: none;
     background-color: var(--main-bg-color);
-    color: white;
     gap: 16px;
 }
 
@@ -30,4 +36,34 @@ li:first-child {
     color: var(--main-txt-color);
     font-weight: bold;
     margin-right: auto;
+}
+
+.hero {
+    background-color: var(--main-bg-color);
+}
+
+header {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    gap: 8px;
+    flex: 0 1 auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--main-txt-color);
+}
+
+#hero-btn {
+    font-weight: bold;
+    color: var(--sec-txt-color);
+    background-color: var(--blue);
+    border: 0px;
+    padding: 10px 36px;
+    border-radius: 8px;
+    align-self: flex-start;
+    font-size: 16px;
 }
