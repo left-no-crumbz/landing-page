@@ -11,6 +11,11 @@
     --blue: #3882f6;
 }
 
+/* Removes the extra white space on mobile view */
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,10 +50,11 @@ li:first-child {
     align-items: center;
     padding: 120px 135px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 header {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -97,7 +103,7 @@ h2 {
 
 .information {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     justify-content: center;
     align-items: center;
 }
@@ -116,7 +122,8 @@ h2 {
 }
 
 .text {
+    font-size: 18px;
     text-align: center;
     color: var(--main-bg-color);
-    font-weight: lighter;
+    font-weight: 100;
 }
