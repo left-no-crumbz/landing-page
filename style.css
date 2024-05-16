@@ -78,3 +78,24 @@ h1 {
     padding: 110px 150px; 
     color: var(--sec-txt-color)
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--main-bg-color);
+    margin-top: 50px;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    padding: 30px 135px;
+    justify-content: center;
+    gap: 36px;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    padding: 80px;
+    background-color: var(--main-txt-color);
+    border: 3px solid var(--blue);
+}
