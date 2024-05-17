@@ -163,14 +163,14 @@ h2 {
 /* CTA SECTION */
 
 .cta-container {
-    padding: 120px 120px;
+    padding: 120px 180px;
 }
 
 .cta {
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
-    padding: 60px 120px;
+    border-radius: 10px;
+    padding: 50px 120px;
     background-color: var(--blue);
     color: var(--main-txt-color);
 }
@@ -184,11 +184,11 @@ h2 {
     align-self: center;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px 36px;
+    padding: 6px 32px;
     border-radius: 10px;
     color: var(--main-txt-color);
     background-color: var(--blue);
-    border: 3px solid var(--main-txt-color);
+    border: 2px solid var(--main-txt-color);
 }
 
 /* FOOTER */
