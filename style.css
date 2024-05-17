@@ -181,7 +181,7 @@ h2 {
 }
 
 .cta-button {
-    align-self: flex-end;
+    align-self: center;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 36px;
@@ -189,4 +189,14 @@ h2 {
     color: var(--main-txt-color);
     background-color: var(--blue);
     border: 3px solid var(--main-txt-color);
+}
+
+/* FOOTER */
+footer {
+    color: var(--main-txt-color);
+    padding: 40px 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
 }
