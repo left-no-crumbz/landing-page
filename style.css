@@ -17,8 +17,10 @@ html, body {
 }
 
 body {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
+
+/* NAVBAR SECTION */
 
 .navbar,
 .subtext {
@@ -43,6 +45,8 @@ li:first-child {
     font-weight: bold;
     margin-right: auto;
 }
+
+/* HERO SECTION */
 
 .hero {
     display: flex;
@@ -94,6 +98,7 @@ h2 {
     text-align: center;
 }
 
+/* INFORMATION SECTION */
 .gallery {
     padding: 50px;
     display: flex;
@@ -129,4 +134,11 @@ h2 {
     text-align: center;
     color: var(--main-bg-color);
     font-weight: 100;
+}
+
+
+/* CONTAINER SECTION */
+.quote-container {
+    padding: 50px;
+    background-color: var(--sec-txt-color);
 }
