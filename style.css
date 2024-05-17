@@ -142,13 +142,13 @@ h2 {
     flex-direction: column;
     padding: 120px 280px;
     background-color: var(--sec-txt-color);
+    color: var(--main-bg-color);
     flex-wrap: wrap;
 }
 
-.quote{
+.quote {
     font-size: 36px;
     font-style: italic;
-    color: var(--main-bg-color);
     font-weight: 300;
 
 }
@@ -157,6 +157,36 @@ h2 {
     margin-right: 30px;
     align-self: flex-end;
     font-size: 24px;
-    color: var(--main-bg-color);
     font-weight: bold;
+}
+
+/* CTA SECTION */
+
+.cta-container {
+    padding: 120px 120px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 60px 120px;
+    background-color: var(--blue);
+    color: var(--main-txt-color);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cta-button {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 36px;
+    border-radius: 10px;
+    color: var(--main-txt-color);
+    background-color: var(--blue);
+    border: 3px solid var(--main-txt-color);
 }
