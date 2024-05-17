@@ -133,12 +133,30 @@ h2 {
     font-size: 18px;
     text-align: center;
     color: var(--main-bg-color);
-    font-weight: 100;
 }
 
 
 /* CONTAINER SECTION */
 .quote-container {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 280px;
     background-color: var(--sec-txt-color);
+    flex-wrap: wrap;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: var(--main-bg-color);
+    font-weight: 300;
+
+}
+
+.quoter {
+    margin-right: 30px;
+    align-self: flex-end;
+    font-size: 24px;
+    color: var(--main-bg-color);
+    font-weight: bold;
 }
